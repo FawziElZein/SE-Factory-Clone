@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+@-webkit-keyframes greenpurplepink {  
+    0% { background-color: rgba(251, 80, 142, 0.93); }
+    33% { background-color: rgba(40, 238, 167, 0.93); }
+    66% { background-color: rgba(152, 100, 218, 0.93); }
+    100% { background-color: rgba(251, 80, 142, 0.93); }
+  }
+  
+header{
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    
+}
+
+header section:first-of-type {
+    flex-grow: 1;
+    height: 100% ;
+  -webkit-animation-name: greenpurplepink;
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-duration: 14s; 
+}
+
+header section:last-of-type{
+    flex-grow: 1;
+}

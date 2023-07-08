@@ -191,7 +191,7 @@ header section:first-of-type {
     margin: 0 90px;
 }
 
-#helloworld header {
+.headers {
     display: flex;
     align-items: center;
     height: fit-content;
@@ -199,14 +199,14 @@ header section:first-of-type {
 
 }
 
-#helloworld header>div:first-of-type {
+.headers>div:first-of-type {
     color: #28eea7;
     padding: 10px 20px;
     font-weight: 900;
     font-size: 36px;
 }
 
-#helloworld header>div:nth-of-type(2) {
+.headers>div:nth-of-type(2) {
     font-weight: 900;
     font-size: 24px;
     color: #363738;
@@ -245,4 +245,25 @@ iframe{
     border-radius: 20px;
     border: 15px solid #28eea7;
     box-sizing: border-box;
+}
+
+#milestones{
+    padding: 70px 148px;
+    background-color: #fcfcfd;
+}
+
+#milestonescontent{
+    margin-top: 50px;
+    display: flex;
+}
+
+#milestonescontent>div:first-of-type{
+    color: #363738;
+    font-size: 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #f1f2f3;
 }

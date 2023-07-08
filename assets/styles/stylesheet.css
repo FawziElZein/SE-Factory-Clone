@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: Noto Sans Mono, sans-serif;
+    font-size: 16px;
 }
 
 @-webkit-keyframes greenpurplepink {
@@ -28,22 +30,74 @@ header {
 }
 
 header section:first-of-type {
-    flex-grow: 1;
+    width: 50%;
     background-image: url('../images/gethiredbackground.png');
     background-size: cover;
+
 }
 
-header section:first-of-type div {
+#coloreffect {
     width: 100%;
     height: 100%;
     -webkit-animation-name: greenpurplepink;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 14s;
+    display: flex;
+    align-items: center;
+}
+
+#coloreffect>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 70px;
+    padding-right: 50px;
+    width: 670px;
+    height: 40vh;
+}
+
+#coloreffect h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1;
+    color: rgb(54, 55, 56);
+    text-align: right;
+
+}
+
+#coloreffect h1 span:first-of-type {
+    text-transform: uppercase;
+    color: #fcfcfd;
+    background-color: #363738;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    font-size: 24px;
+    line-height: 2.5;
+
+}
+
+#coloreffect p {
+    padding-left: 110px;
+    min-height: 10ch;
+    text-align: right;
+    line-height: 1.5;
+    font-family: Noto Sans Mono, sans-serif;
+}
+
+
+#coloreffect div div{
+    text-transform: uppercase;
+    color: #fcfcfd;
+    background-color:rgba(35, 35, 35, .9);
+    padding: 0.8em;
+    font-weight: 800;
 
 }
 
 header section:last-of-type {
-    flex-grow: 1;
+    width: 50%;
     background-image: url('../images/wantToHireBackground.png');
     background-size: cover;
 }

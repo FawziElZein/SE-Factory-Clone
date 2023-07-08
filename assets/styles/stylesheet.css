@@ -29,79 +29,6 @@ header {
 
 }
 
-header section:first-of-type {
-    width: 50%;
-    background-image: url('../images/gethiredbackground.png');
-    background-size: cover;
-
-}
-
-#coloreffect {
-    width: 100%;
-    height: 100%;
-    -webkit-animation-name: greenpurplepink;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 14s;
-    display: flex;
-    align-items: center;
-}
-
-#coloreffect>div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin-left: 70px;
-    padding-right: 50px;
-    width: 670px;
-    height: 40vh;
-}
-
-#coloreffect h1 {
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 1;
-    color: rgb(54, 55, 56);
-    text-align: right;
-
-}
-
-#coloreffect h1 span:first-of-type {
-    text-transform: uppercase;
-    color: #fcfcfd;
-    background-color: #363738;
-    justify-content: flex-end;
-    padding: 5px 10px;
-    font-size: 24px;
-    line-height: 2.5;
-
-}
-
-#coloreffect p {
-    padding-left: 110px;
-    min-height: 10ch;
-    text-align: right;
-    line-height: 1.5;
-    font-family: Noto Sans Mono, sans-serif;
-}
-
-
-#coloreffect div div{
-    text-transform: uppercase;
-    color: #fcfcfd;
-    background-color:rgba(35, 35, 35, .9);
-    padding: 0.8em;
-    font-weight: 800;
-
-}
-
-header section:last-of-type {
-    width: 50%;
-    background-image: url('../images/wantToHireBackground.png');
-    background-size: cover;
-}
-
 nav {
     position: absolute;
     display: flex;
@@ -130,3 +57,157 @@ nav div img {
     width: 35px;
     height: 35px;
 }
+
+header section:first-of-type {
+    width: 50%;
+    background-image: url('../images/gethiredbackground.png');
+    background-size: cover;
+
+}
+
+#coloreffect {
+    height: 100%;
+    -webkit-animation-name: greenpurplepink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 14s;
+    display: flex;
+    align-items: center;
+}
+
+#coloreffect>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 160px;
+    max-width: 670px;
+    height: 40vh;
+}
+
+#coloreffect h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1;
+    color: rgb(54, 55, 56);
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#coloreffect h1 span:first-of-type {
+    text-transform: uppercase;
+    color: #fcfcfd;
+    background-color: #363738;
+    justify-content: flex-end;
+    padding: 0 10px;
+    font-size: 24px;
+    line-height: 2.5;
+
+}
+
+#coloreffect p {
+    min-height: 10ch;
+    text-align: right;
+    line-height: 1.5;
+    margin: 40px 0;
+    font-family: Noto Sans Mono, sans-serif;
+}
+
+
+#coloreffect div div {
+    text-transform: uppercase;
+    color: #fcfcfd;
+    background-color: rgba(35, 35, 35, .9);
+    padding: 0.8em;
+    font-weight: 800;
+
+}
+
+#hire {
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/wantToHireBackground.png');
+    background-size: cover;
+    color: #fcfcfd;
+    display: flex;
+    align-items: center;
+}
+
+#hire>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 160px;
+    max-width: 670px;
+    height:40vh;
+    max-height: 100vh;
+}
+
+#hire h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#hire h1 span:first-of-type {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0 10px;
+    line-height: 2.5;
+    background-color: #fcfcfd;
+    color: rgb(54, 55, 56);
+
+}
+
+#hire p {
+
+    /* padding-right: 90px; */
+    min-height: 10ch;
+    line-height: 1.5;
+    margin: 40px 0;
+    font-family: Noto Sans Mono, sans-serif;
+}
+
+#hire div div {
+    text-transform: uppercase;
+    background-color: #f1f2f3;
+    color: #363738;
+    padding: 15px 20px;
+    padding: 0.8em;
+    font-weight: 800;
+
+}
+
+/* #hire p{
+    padding-right: ;
+} */
+/* header section :last-of-type{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+} */
+
+
+/* header section:last-of-type h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1;
+    color: rgb(54, 55, 56);
+    text-align: right;
+
+} */

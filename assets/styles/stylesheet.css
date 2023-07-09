@@ -255,15 +255,36 @@ iframe{
 #milestonescontent{
     margin-top: 50px;
     display: flex;
+    color: #363738;
 }
 
+
 #milestonescontent>div:first-of-type{
+    width: 50%;
     color: #363738;
     font-size: 16px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-grow: 1;
+    align-items:self-start;
+    /* flex-grow: 1; */
     background-color: #f1f2f3;
+    padding: 60px 70px;
+
 }
+
+
+.milestonetitle{
+    color: #363738;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 900;
+}
+
+#secondtitle{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+

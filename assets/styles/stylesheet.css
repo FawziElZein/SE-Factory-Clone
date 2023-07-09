@@ -201,12 +201,12 @@ header section:first-of-type {
 
 }
 
-.headertitle{
+.headertitle {
     display: flex;
     align-items: center;
 }
 
-.headertitle div:first-of-type{
+.headertitle div:first-of-type {
     color: #28eea7;
     padding: 10px 20px;
     font-weight: 900;
@@ -233,6 +233,7 @@ header section:first-of-type {
     border-radius: 20px;
     margin: 0 5px;
 }
+
 #black {
     background-color: #363738;
 }
@@ -245,11 +246,11 @@ header section:first-of-type {
     background-color: #28eea7;
 }
 
-#white{
+#white {
     background-color: #fcfcfd;
 }
 
-#gray{
+#gray {
     background-color: #a5a6a9;
 }
 
@@ -334,7 +335,7 @@ iframe {
     padding: 40px;
     background-color: #f1f2f3;
     border-radius: 20px;
-    margin:10px;
+    margin: 10px;
 }
 
 #detailedmilestones>div:first-of-type .milestones:first-of-type {
@@ -348,11 +349,11 @@ iframe {
 }
 
 
-#detailedmilestones>div:last-of-type .milestones{
+#detailedmilestones>div:last-of-type .milestones {
     margin-bottom: 0;
 }
 
-#programs{
+#programs {
     padding: 70px 148px;
     background-color: rgb(40, 238, 167);
 }
@@ -368,24 +369,128 @@ iframe {
 
 
 } */
-#programs .headertitle{
+#programs .headertitle {
     background-color: #363738;
     font-size: 24px;
 
 }
 
-#programs .headertitle div:first-of-type{
+#programs .headertitle div:first-of-type {
     padding: 0 0 0 20px;
     font-size: 24px;
 }
 
-#programs .headertitle div:last-of-type{
+#programs .headertitle div:last-of-type {
     color: #fcfcfd;
     padding: 5px 20px;
     display: inline-block;
 }
 
 
-#programscontent div:first-of-type{
+#programsmain {
+    margin-top: 50px;
+}
+
+#programsmain div:first-of-type {
     display: flex;
+    font-weight: 900;
+}
+
+#programsmain>div:first-of-type div {
+
+    padding: 20px 50px;
+}
+
+#programsmain>div:first-of-type>div:nth-of-type(2) {
+    color: #28eea7;
+    border-radius: 10px 10px 0 0;
+    background-color: #363738;
+}
+
+
+#programtitle {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.4;
+    align-self: stretch;
+    color: #fcfcfd;
+}
+
+#programtitle span {
+    color: #28eea7;
+}
+
+#programcontent {
+    background-color: #363738;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#programdescription {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    flex:1;
+    padding: 20px;
+    margin-right: 20px;
+
+}
+
+#programdescription p {
+    color: #dcdee1;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:24px;
+}
+
+#programdescription footer {
+    display: flex;
+    align-self: stretch;
+    font-size: 16px;
+    line-height: 1;
+    margin-top: auto;
+}
+
+#programdescription footer>div{
+    background-color: #232323;
+    color: #fcfcfd;
+    padding: 15px 20px;
+
+}
+#programdescription footer>div:first-of-type {
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 7.5px;
+    flex: none;
+
+
+   
+}
+#programdescription footer>div:first-of-type>span {
+    color: #28eea7;
+    margin-left: 10px;
+    font-weight: 900;
+
+}
+#programdescription footer>div:last-of-type {
+    text-align: right;
+    margin-left: 7.5px;
+    flex: 1;
+
+}
+
+#programimage {
+    background-image: url('../images/FSWprogramimage.png');
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left:40px;
 }

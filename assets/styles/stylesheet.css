@@ -434,7 +434,7 @@ iframe {
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    flex:1;
+    flex: 1;
     padding: 20px;
     margin-right: 20px;
 
@@ -444,7 +444,7 @@ iframe {
     color: #dcdee1;
     font-size: 14px;
     font-weight: 400;
-    margin-top:24px;
+    margin-top: 24px;
 }
 
 #programdescription footer {
@@ -455,12 +455,13 @@ iframe {
     margin-top: auto;
 }
 
-#programdescription footer>div{
+#programdescription footer>div {
     background-color: #232323;
     color: #fcfcfd;
     padding: 15px 20px;
 
 }
+
 #programdescription footer>div:first-of-type {
     display: flex;
     align-items: center;
@@ -471,18 +472,21 @@ iframe {
     flex: none;
 
 
-   
+
 }
+
 #programdescription footer>div:first-of-type>span {
     color: #28eea7;
     margin-left: 10px;
     font-weight: 900;
 
 }
+
 #programdescription footer>div:last-of-type {
     text-align: right;
     margin-left: 7.5px;
     flex: 1;
+    text-transform: uppercase;
 
 }
 
@@ -492,14 +496,93 @@ iframe {
     border-radius: 10px;
     width: 400px;
     height: 400px;
-    margin-left:40px;
+    margin-left: 40px;
 }
 
-#hiretalent{
+#hiretalent {
     padding: 70px 148px;
     background-color: #363738;
 }
 
-#hiretalent .headertitle>div:last-of-type{
+#hiretalent .headertitle>div:last-of-type {
     color: #fcfcfd;
+}
+
+#hirecontent {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #232323;
+    border-radius: 20px;
+    color: #fcfcfd;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#hirecontent>div:first-of-type {
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 900;
+}
+
+
+#hirecontent>div:nth-of-type(2) {
+    padding: 15px 20px;
+    background-color: #363738;
+    margin-top: 24px;
+}
+
+#hirecontent>div:nth-of-type(2) span {
+    color: #28eea7;
+    font-weight: 900;
+}
+
+#hirecontent>div:nth-of-type(3) {
+    margin: 12px 0;
+}
+
+#hirecontent ol,
+#hirecontent p {
+    font-size: 14px;
+}
+
+#hirecontent>div:last-of-type {
+    text-align: right;
+    align-self: stretch;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    background-color: rgba(54, 55, 56, .75);
+    padding: 15px 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#hiretalent footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 40px;
+    background-color: #232323;
+    border-radius: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 22px;
+    color: #fcfcfd;
+    letter-spacing: -1.5px;
+}
+
+
+#hiretalent footer>div:first-of-type,
+#hiretalent footer>div:nth-of-type(2) {
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+#hiretalent footer img {
+    cursor: pointer;
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
 }

@@ -893,3 +893,14 @@ form>input {
     font-weight: 800;
     cursor: pointer;
 }
+
+
+#partners{
+    padding: 70px 148px;
+
+}
+
+.partnersicons{
+    display: flex;
+
+}

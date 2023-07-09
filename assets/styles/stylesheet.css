@@ -603,7 +603,8 @@ iframe {
     display: flex;
 
 }
-#testimonialscontainer>img{
+
+#testimonialscontainer>img {
     width: 400px;
     height: 400px;
 }
@@ -613,11 +614,11 @@ iframe {
     margin-right: 40px;
 }
 
-#testimonialcontent>img{
+#testimonialcontent>img {
     margin-bottom: 24px;
 }
 
-#testimonialcontent>div:first-of-type{
+#testimonialcontent>div:first-of-type {
     color: #fcfcfd;
     margin-bottom: 32px;
     font-weight: 400;
@@ -651,4 +652,29 @@ iframe {
 #testimonialauthor>div>div:last-of-type span {
     color: #28eea7;
     font-weight: 900;
+}
+
+#slider {
+    height: 40px;
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 10px;
+    font-size: 10px;
+
+
+}
+
+#slider div {
+
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 12px;
+    background-color: rgba(34, 34, 34, .4);
+}
+
+#slider div:first-of-type {
+    background-color: #222;
 }

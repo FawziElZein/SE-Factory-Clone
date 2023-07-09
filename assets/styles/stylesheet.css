@@ -494,3 +494,12 @@ iframe {
     height: 400px;
     margin-left:40px;
 }
+
+#hiretalent{
+    padding: 70px 148px;
+    background-color: #363738;
+}
+
+#hiretalent .headertitle>div:last-of-type{
+    color: #fcfcfd;
+}

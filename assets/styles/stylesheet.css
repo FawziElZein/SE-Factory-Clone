@@ -504,7 +504,9 @@ iframe {
     background-color: #363738;
 }
 
-#hiretalent .headertitle>div:last-of-type {
+
+#hiretalent .headertitle>div:last-of-type,
+#FAQ .headertitle>div:last-of-type {
     color: #fcfcfd;
 }
 
@@ -677,4 +679,49 @@ iframe {
 
 #slider div:first-of-type {
     background-color: #222;
+}
+
+
+#FAQ {
+    padding: 70px 148px;
+    background-color: #363738;
+}
+
+#FAQcontainer {
+    margin-top: 50px;
+}
+
+.questions {
+    display: flex;
+    cursor: pointer;
+    background-color: #232323;
+    color: #fcfcfd;
+    border: 5px solid #232323;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.4;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 24px;
+    margin-bottom: 15px;
+}
+
+.questions>div:first-of-type {
+    color: #28eea7;
+    margin-right: 10px;
+}
+
+.questions>div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+#FAQcontainer>div:last-of-type {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fcfcfd;
+    margin-top: 9px;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #232323;
+    text-align: right;
 }

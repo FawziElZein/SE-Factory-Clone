@@ -738,7 +738,8 @@ header section:first-of-type {
     flex: 1;
 }
 
-#location, #contactform {
+#location,
+#contactform {
     border-radius: 20px;
     background-color: #363738;
     flex-direction: column;
@@ -750,8 +751,13 @@ header section:first-of-type {
 }
 
 #contactform{
+    margin-left: 20px;
+}
+
+#contactform {
     flex: 1;
 }
+
 #location>div:first-of-type {
     color: #a5a6a9;
     text-align: left;
@@ -778,51 +784,52 @@ header section:first-of-type {
     font-weight: 700;
 }
 
-#formheader{
+#formheader {
     font-size: 22px;
     font-weight: 900;
     line-height: 1.4;
     margin-bottom: 24px;
 }
 
-#formheader>div:first-of-type{
+#formheader>div:first-of-type {
     color: #a5a6a9;
     font-size: 14px;
 }
 
-#formheader span{
+#formheader span {
     color: #28eea7;
 }
 
-#contactform form{
+#contactform form {
     display: flex;
     flex-direction: column;
     align-self: stretch;
 }
 
-#contactform form>div{
+#contactform form>div:first-of-type,
+#contactform form>div:nth-of-type(2) {
     display: flex;
 }
 
-#contactform form>div:nth-of-type(2){
+#contactform form>div:nth-of-type(2) {
     display: flex;
     margin-top: 20px;
 }
 
-.labelinput{
+.labelinput {
     font-size: 14px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
 
-.labelinput:nth-of-type(2n+1){
+.labelinput:nth-of-type(2n+1) {
     margin-right: 20px;
 }
 
-.labelinput label{
+.labels {
     display: block;
     color: #fcfcfd;
     margin-bottom: 10px;
@@ -830,16 +837,31 @@ header section:first-of-type {
     font-weight: 900;
 }
 
-.labelinput input{
+.labelinput input {
     height: 45px;
     margin-bottom: 0;
     padding-left: 16px;
     padding-right: 16px;
-    background-color: #fff;
     display: block;
     border: 1px solid #ccc;
 }
 
-.labelinput input::placeholder{
+.labelinput input::placeholder {
     font-family: Noto Sans Mono, sans-serif;
+}
+
+
+#radiobuttons {
+    margin-top: 20px;
+    
+}
+
+#radiobuttons div:last-of-type{
+    color: #fcfcfd;
+    display: flex;
+}
+
+#radiobuttons div:last-of-type label{
+    margin-left: 5px;
+    margin-right: 40px;
 }

@@ -358,29 +358,21 @@ iframe {
     background-color: rgb(40, 238, 167);
 }
 
-/* #programs .headers>div:first-of-type{
-    background-color: #363738;
-    font-size: 24px;
-}
 
-#programs .headers>div:nth-of-type(2){
-    background-color: #363738;
-    color: #fcfcfd;
-
-
-} */
 #programs .headertitle {
     background-color: #363738;
     font-size: 24px;
 
 }
 
-#programs .headertitle div:first-of-type {
+#programs .headertitle div:first-of-type,
+#contactus .headertitle div:first-of-type {
     padding: 0 0 0 20px;
     font-size: 24px;
 }
 
-#programs .headertitle div:last-of-type {
+#programs .headertitle div:last-of-type,
+#contactus .headertitle div:last-of-type {
     color: #fcfcfd;
     padding: 5px 20px;
     display: inline-block;
@@ -724,4 +716,14 @@ iframe {
     cursor: pointer;
     background-color: #232323;
     text-align: right;
+}
+
+#contactus {
+    padding: 70px 148px;
+    background-color: #28eea7;
+}
+
+#contactus .headers .headertitle {
+    background-color: #363738;
+    font-size: 24px;
 }

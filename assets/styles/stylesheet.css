@@ -1,6 +1,7 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     font-family: Noto Sans Mono, sans-serif;
@@ -442,6 +443,8 @@ header section:first-of-type {
     font-weight: 400;
     margin-top: 24px;
 }
+
+
 
 #programdescription footer {
     display: flex;
@@ -929,10 +932,12 @@ form>input {
     padding: 70px 148px;
     background-color: #363738;
 }
-#newsletter form{
+
+#newsletter form {
     display: flex;
     justify-content: space-between;
 }
+
 #newsletter form>div:first-of-type {
     font-size: 22px;
     font-weight: 900;
@@ -953,7 +958,8 @@ form>input {
     font-weight: 400;
     line-height: 1.5;
 }
-#newsletter form>div:last-of-type{
+
+#newsletter form>div:last-of-type {
     display: flex;
 }
 
@@ -984,22 +990,47 @@ form>input {
     display: inline-block;
 }
 
-footer{
+body>footer {
     padding: 70px 148px;
     background-color: #232323;
 }
-#navigationmenu{
-    display: flex;
 
+body>footer>div:first-of-type {
+    display: flex;
 }
 
-#navigationmenu div{
+body>footer>div:last-of-type {
+    margin-top: 70px;
+    color: #a5a6a9;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body>footer>div:last-of-type a {
+    color: #a5a6a9;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navigationmenu {
+    display: flex;
+    flex-grow: 1;
+}
+
+#navigationmenu div {
     display: flex;
     color: #a5a6a9;
     flex-direction: column;
 }
 
-#navigationmenu div:first-of-type div{
+
+#navigationmenu div:first-of-type div {
     color: #dcdee1;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1010,12 +1041,13 @@ footer{
     align-self: flex-start;
 }
 
-#navigationmenu div:last-of-type{
-    align-self:flex-end;
+#navigationmenu>div:last-of-type {
+    align-self: flex-end;
+    margin-left: 70px;
 }
 
 
-.navigatorlink{
+.navigatorlink {
     color: #a5a6a9;
     margin: 9px 0;
     font-size: 14px;
@@ -1023,3 +1055,47 @@ footer{
     text-decoration: none;
     font-weight: bold;
 }
+
+#socialmedia {
+    flex-direction: column;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-end;
+
+
+}
+
+#socialmedia div {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: auto;
+    margin-left: -12px;
+    display: flex;
+}
+
+
+#socialmedia a {
+    background-color: #a5a6a9;
+    border-radius: 7px;
+    margin-left: 12px;
+    padding: 5px;
+}
+
+.navigatorlink:hover {
+    color: #fcfcfd;
+}
+
+#socialmedia a:hover {
+    background-color: #fcfcfd;
+}
+
+#socialmedia>a {
+    background-color: transparent;
+}
+
+#socialmedia a img {
+    vertical-align: middle;
+}
+
+
+/* 990 */

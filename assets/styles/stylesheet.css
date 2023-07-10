@@ -900,7 +900,23 @@ form>input {
 
 }
 
-.partnersicons{
-    display: flex;
+#partnersicons{
+    margin-top: 50px;
 
 }
+
+#partnersicons div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#partnersicons div:first-of-type{
+    margin-bottom: 16px;
+}
+
+#partnersicons img{
+    height: 80px;
+    mix-blend-mode: multiply;
+    object-fit: contain;
+}
+

@@ -1,7 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: Noto Sans Mono, sans-serif;
     background-color: #f1f2f3;
+
 }
 
 @-webkit-keyframes greenpurplepink {
@@ -978,4 +982,44 @@ form>input {
     font-weight: 800;
     text-decoration: none;
     display: inline-block;
+}
+
+footer{
+    padding: 70px 148px;
+    background-color: #232323;
+}
+#navigationmenu{
+    display: flex;
+
+}
+
+#navigationmenu div{
+    display: flex;
+    color: #a5a6a9;
+    flex-direction: column;
+}
+
+#navigationmenu div:first-of-type div{
+    color: #dcdee1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16px;
+    align-self: flex-start;
+}
+
+#navigationmenu div:last-of-type{
+    align-self:flex-end;
+}
+
+
+.navigatorlink{
+    color: #a5a6a9;
+    margin: 9px 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    font-weight: bold;
 }

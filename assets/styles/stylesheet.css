@@ -925,24 +925,57 @@ form>input {
     padding: 70px 148px;
     background-color: #363738;
 }
-
-#newsletter form>div:first-of-type{
+#newsletter form{
+    display: flex;
+    justify-content: space-between;
+}
+#newsletter form>div:first-of-type {
     font-size: 22px;
     font-weight: 900;
     line-height: 1.5;
     color: #fcfcfd;
 }
 
-#newsletter form>div:first-of-type span:first-of-type{
+#newsletter form>div:first-of-type span:first-of-type {
     color: #28eea7;
 
 }
 
-#newsletter form>div:first-of-type span:last-of-type{
+#newsletter form>div:first-of-type span:last-of-type {
     color: #a5a6a9;
     text-align: left;
     flex: 0 auto;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
+}
+#newsletter form>div:last-of-type{
+    display: flex;
+}
+
+#newsletter form>div:last-of-type input {
+    height: 45px;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#newsletter form>div:last-of-type input::placeholder {
+    font-family: Noto Sans Mono, sans-serif;
+}
+
+#newsletter form>div:last-of-type input:last-of-type {
+    height: 45px;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #232323;
+    color: #fcfcfd;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 20px;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
 }
